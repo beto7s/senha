@@ -36,3 +36,12 @@ function aumentaTamanho(){
 for (i=0; i < checkbox.length;i++){
     checkbox[i].onclick = geraSenha;
 }
+
+gerasenha(){}
+    let alfabeto = ¨;
+    if (checkbox[0].checked){
+    alfabeto = alfabeto + letrasMinusculas;
+}
+if (checkbox{1}.checked){
+    alfabeto = alfabeto + letrasMinusculas;
+}
