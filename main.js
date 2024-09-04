@@ -68,8 +68,8 @@ function classificasenha (tamanhoalfabeto){
     forcaSenha.classList.remove(fraca , media , forte);
     if (tamanhoSenha > 11){
         forcaSenha.classList.add(forte);
-        else if (tamanhosenha > 5 && tamanhoSenha < 12)
-            else if (tamanhosenha <= 5){
+        elseif (tamanhosenha > 5 && tamanhoSenha < 12)
+            elseif (tamanhosenha <= 5){
         forcaSenha.classList.add(fraca);
     }
         
