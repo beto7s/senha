@@ -42,13 +42,13 @@ gerasenha(){}
     if (checkbox[0].checked){
     alfabeto = alfabeto + letrasMaiusculas;
 }
-if (checkbox{1}.checked){
+if (checkbox[1].checked){
     alfabeto = alfabeto + letrasMinusculas;
 }
-(checkbox{2}.checked){
+(checkbox[2].checked){
     alfabeto = alfabeto + numeros;
 }
-(checkbox{3}.checked{
+(checkbox[3].checked{
     alfabeto = alfabeto + simbolos;
 })
 console.log(alfabeto);
