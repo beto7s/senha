@@ -37,7 +37,7 @@ for (i=0; i < checkbox.length;i++){
     checkbox[i].onclick = geraSenha;
 }
 
- function gerasenha(){
+ function geraSenha(){
     let alfabeto = "";
     if (checkbox[0].checked){
     alfabeto = alfabeto + letrasMaiusculas;
