@@ -15,6 +15,7 @@ const forcaSenha = document.querySelector('forca');
 console.log(checkbox)
 
 botoes[0].onclick = diminuiTamanho;
+botoes[1].onclick = aumentaTamanho;
 function diminuiTamanho(){
     if (tamanhoSenha > 1){
         tamanhoSenha = tamanhoSenha-1;
